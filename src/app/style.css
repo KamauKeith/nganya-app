@@ -1,0 +1,71 @@
+.homepage {
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+  font-family: sans-serif;
+}
+
+.location-box {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.location-box input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.location-box button {
+  padding: 10px;
+  background: #985a5a;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.actions {
+  margin: 1rem 0;
+}
+
+.btn-primary {
+  background: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  margin-right: 1rem;
+}
+
+.suggestions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1;
+  min-width: 200px;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: #f3f3f3;
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+.card button {
+  margin-top: 0.5rem;
+  padding: 8px 12px;
+  background: white;
+  border: 1px solid black;
+  border-radius: 6px;
+  cursor: pointer;
+}
