@@ -11,12 +11,12 @@ export default function Navbar () {
             </div>
             <ul className="nav-links">
                 <li><Link href="/">Home</Link></li>
-                <li><Link href="/Trip">Trips</Link></li>
+                <li><Link href="/trips">Trips</Link></li>
                 <li><Link href="/SACCO">Sacco</Link></li>
                 <li><Link href="/Account">Account</Link></li>
             </ul>
             <div className="nav-actions">
-                <Link href="/signin" className="btn-login">Sign-In</Link>
+                <Link href="/signup">Sign-In</Link>
             </div>
         </nav>
     );
