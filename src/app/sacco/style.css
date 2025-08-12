@@ -1,0 +1,35 @@
+.dashboard-container {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.dashboard-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.sacco-list {
+    list-style: none;
+    padding: 0;
+}
+
+.sacco-item {
+    background: #f5f5f5;
+    margin: 10px 0;
+    padding: 15px 20px;
+    border-radius: 10px;
+    transition: background 0.3s ease;
+}
+
+.sacco-item:hover {
+    background: #e0e0e0;
+}
+
+.sacco-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
